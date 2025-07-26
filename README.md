@@ -74,7 +74,7 @@ Below is a sample of the risk scoring output for the first 5 wallet addresses:
 The full dataset with all 100 wallets is saved as `data/wallet_risk_scores.csv`.
 
 ---
-
+  ```bash
 ## Project Structure
 project/
 ├── data/
@@ -86,10 +86,10 @@ project/
 ├── requirements.txt
 └── README.md # Project overview
 
-
-
+  ```
+  ```bash
 Wallets CSV → Fetch Transactions → Feature Engineering → Risk Scoring → Output CSV
-
+  ```
 
 ---
 
@@ -98,5 +98,5 @@ Wallets CSV → Fetch Transactions → Feature Engineering → Risk Scoring → 
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-
-python main.py
+  ```bash
+  python main.py
